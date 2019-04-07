@@ -1,8 +1,8 @@
 # Desafio da semana #3
 
-```js
-// Declarar uma variável qualquer, que receba um objeto vazio.
-var variavel = objeto{}
+
+<b> Declarar uma variável qualquer, que receba um objeto vazio. </b>
+// var variavel = objeto{}
 
 /*
 Declarar uma variável `pessoa`, que receba suas informações pessoais.
@@ -17,16 +17,16 @@ As propriedades e tipos de valores para cada propriedade desse objeto devem ser:
 - `caminhouQuantosMetros` - Number - recebe "zero" por padrão
 
 RESPOSTA: - 
-var variavel = pessoa [
- - nome: 'fulano'
- - sobrenome: 'da silva'
-- sexo: 'masculino'
-- idade: 35
-- altura: 1.75
-- peso: 67
-- andando: false
-- caminhouQuantosMetros: 0
-]
+var variavel = pessoa {
+ nome: 'fulano'
+ sobrenome: 'da silva'
+ sexo: 'masculino'
+ idade: 35
+ altura: 1.75
+ peso: 67
+ andando: false
+ caminhouQuantosMetros: 0
+}
 
 */
 
