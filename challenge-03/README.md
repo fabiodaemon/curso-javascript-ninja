@@ -1,7 +1,8 @@
+/*
 # Desafio da semana #3
 
-/*
-<b> Declarar uma variável qualquer, que receba um objeto vazio. </b>
+
+Declarar uma variável qualquer, que receba um objeto vazio.
 // var variavel = objeto{}
 
 
