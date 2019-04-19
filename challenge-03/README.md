@@ -1,9 +1,9 @@
-<!--
-# Desafio da semana #3
+/*
+Desafio da semana 3
 
 
 Declarar uma variável qualquer, que receba um objeto vazio.
-// var variavel = objeto{}
+var variavel = objeto{}
 
 
 Declarar uma variável `pessoa`, que receba suas informações pessoais.
@@ -229,4 +229,4 @@ Agora, apresente-se ;)
 pessoa.apresentacao();
 "Olá, eu sou o Fulano da Silva, tenho 38 anos, 1,75, meu peso é 67kg e, só hoje, eu já caminhei 350 metros! "
 
--->
+*/
