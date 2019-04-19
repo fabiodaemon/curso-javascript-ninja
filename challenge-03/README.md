@@ -1,4 +1,4 @@
-/*
+<!--
 # Desafio da semana #3
 
 
@@ -229,4 +229,4 @@ Agora, apresente-se ;)
 pessoa.apresentacao();
 "Olá, eu sou o Fulano da Silva, tenho 38 anos, 1,75, meu peso é 67kg e, só hoje, eu já caminhei 350 metros! "
 
-*/
+-->
