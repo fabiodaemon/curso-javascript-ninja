@@ -77,7 +77,7 @@ Crie um método chamado `obterCor`, que retorne a cor do carro.
 
 carro.obterCor = function (){
   
-    return carro.cor;
+    return carro.cor;carro
 
   }
 
@@ -142,6 +142,26 @@ citado acima, no lugar de "pessoas".
 
 RESPOSTA:
 
+carro.addPessoas = function (pessoas) {
+    
+    var total = carro.quantasPessoas + pessoas;
+    
+    if (carro.quantasPessoas === carro.assentos){
+        
+        return 'O carro já está lotado!';
+    }
+        
+    if (total > carro.assentos){
+        
+        return 'Só cabem mais ' + ' ' + (carro.assentos - carro.quantasPessoas) + 'pessoas no carro!';
+    }
+    
+    carro.quantasPessoas += pessoas;
+    
+    return 'Já temos ' + ' ' + total + ' ' + ' pessoas no carro!';   
+    
+};
+
 */
 
 
@@ -152,39 +172,41 @@ adicionando comentários _inline_ ao lado com o valor retornado, se o método
 retornar algum valor.
 
 Qual a cor atual do carro?
-*/
-?
+'vermelho'
 
-// Mude a cor do carro para vermelho.
-?
+*/
+
+
+// Mude a cor do carro para azul.
+// carro.mudarCor('azul')
 
 // E agora, qual a cor do carro?
-?
+// 'azul'
 
 // Mude a cor do carro para verde musgo.
-?
+// carro.cor = 'verde musgo';
 
 // E agora, qual a cor do carro?
-?
+// 'verde musgo';
 
 // Qual a marca e modelo do carro?
-?
+carro.obterMarcaModelo()
 
 // Adicione 2 pessoas no carro.
-?
+carro.addPessoas(2);
 
 // Adicione mais 4 pessoas no carro.
-?
+carro.addPessoas(4);
 
 // Faça o carro encher.
-?
+// carro.addPessoas(5);
 
 // Tire 4 pessoas do carro.
-?
+// carro.addPessoas(-4);
 
 // Adicione 10 pessoas no carro.
-?
-
+// carro.addPessoas(10);
+ 
 // Quantas pessoas temos no carro?
-?
+//1 pessoa
 ```
