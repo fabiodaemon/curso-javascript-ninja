@@ -60,10 +60,18 @@ RESPOSTA: console.log(showTeamPosition(1));
 
 
 /*
+
 Mostre os números de 20 a 30 no console (inclusive o 30), usando a estrutura de
 repetição "while".
+
+var num = 20
+while(num <= 30){
+
+    console.log(num);
+    num++;
+}
+
 */
-// ?
 
 /*
 Crie uma função chamada `convertToHex`, com as seguintes características:
@@ -76,10 +84,21 @@ Crie uma função chamada `convertToHex`, com as seguintes características:
     - Se a cor passada por parâmetro não estiver entre as selecionadas, mostre
     a frase:
     "Não temos o equivalente hexadecimal para [COR]."
+    
+    function convertToHex(cor){
+        case 'vermelho':
+            return 'A cor é ' + cor + '#c2b2c3';
+        case 'verde':
+             return 'A cor é ' + cor + '#a2b2c3';
+        default:
+            return 'Não temos' + cor + 'em hexadecimal'
+    }
+    
 */
-// ?
+
 
 /*
 Tente mostrar o hexadecimal de 8 cores diferentes usando a função criada acima.
+  console.log(convertToHex(vermelho));
+  console.log(convertToHex(verde));
 */
-// ?
